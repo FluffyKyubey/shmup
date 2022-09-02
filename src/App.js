@@ -1,7 +1,8 @@
 import logo from './logo.svg';
 import './App.css';
-import './Tutorial.css'
-import './Bio.css';
+import './Tutorial.css';
+
+
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { NavBar } from "./components/NavBar";
 import { Banner } from "./components/Banner";
@@ -31,13 +32,14 @@ function App() {
                 <Projects />
                 <Register />
                 <Login />
+                <Footer />
               </>
             }
           />
           <Route path="/Tutorial" element={<Tutorial />} />
           <Route path="/Bio" element={<Bio />} />
         </Routes>
-        <Footer />
+        
       </BrowserRouter>
     </div>
   );

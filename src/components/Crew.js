@@ -6,8 +6,6 @@ import meter5 from "../assets/img/goku.png";
 import meter6 from "../assets/img/goku.png";
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
-import arrow1 from "../assets/img/arrow1.svg";
-import arrow2 from "../assets/img/arrow2.svg";
 import colorSharp from "../assets/img/color-sharp.png"
 import { Link, useNavigate } from "react-router-dom";
 import { ArrowRightCircle } from 'react-bootstrap-icons';
